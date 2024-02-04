@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(43, 64, 69);
+}
+
+.left {
+  font-size: 1.8rem;
+}
+.right {
+  font-size: 1.3rem;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Caveat", cursive;
+  color: aliceblue;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.section1 {
+  display: flex;
+  margin: 44px 191px;
+}
+.section2 {
+  display: flex;
+  margin: 25px 191px;
+  flex-direction: column;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 50%;
+}
+
+.container2 {
+  display: flex;
+  width: 50%;
+}
+
+h1 {
+  color: #b82738;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  display: flex;
+  border-radius: 15px;
+  font-size: 2rem;
+  background-color: rgb(43, 64, 69);
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 90%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.icons {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 4.5rem;
+  color: white;
+}
+
+ul li a:hover {
+  color: aqua;
+  font-size: 1.35rem;
+}
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 30px 4px;
+}
+
+.icon:hover {
+  color: rgb(37, 37, 184);
+}
+
+/* contact */
+.main {
+  display: flex;
+  margin: 44px 191px;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: forestgreen;
+  border-image-width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+label {
+  display: flex;
+  color: ghostwhite;
+  font-size: 1.25rem;
+}
+
+input,
+select {
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+select {
+  background-size: 20px;
+  padding-right: 30px;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #2184b7;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+input[type="date"]:hover {
+  cursor: pointer;
+}
+
+.labels:hover {
+  cursor: pointer;
+}
+.labels {
+  width: 10px;
+}
+
+#country:hover {
+  cursor: pointer;
+}
+
+/* about */
+
+.about-main {
+  display: flex;
+  margin: 44px 191px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 240px;
+}
+.section-1 {
+  display: flex;
+
+  width: 50%;
+  height: 100%;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  height: 100%;
+}
+
+.about__img {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px red;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 50px;
+}
+
+.skills-main {
+  display: flex;
+  margin: 44px 191px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: 0.5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  gap: 20px;
+}
+
+.skills__icon {
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: green;
+}
+
+.skills__names {
+  display: flex;
+  align-items: center;
+  color: blanchedalmond;
+}
+
+.skills__percentage {
+  color: #d41dda;
+}
+
+.skills__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: goldenrod;
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: var(--z-back);
+}
+
+.skills__html {
+  width: 60%;
+}
+
+.skills__css {
+  width: 55%;
+}
+
+.skills__js {
+  width: 30%;
+}
+
+.skills__py {
+  width: 55%;
+}
+
+.skills__react {
+  width: 20%;
+}
+
+.education-main {
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.education-container {
+  display: flex;
+  margin: 44px 191px;
+  justify-content: space-between;
+}

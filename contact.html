@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ccf48f98ef.js"
+      crossorigin="anonymous"
+    ></script>
+    
+   
+
+  </head>
+  <body style="font-family:'Poppins', sans-serif;"background="img/bg_image (1).jpg">
+    <header class="header">
+      <nav Class="nav">
+        <div class="left">
+          <a class="logo" href="index.html">Aarush</a>
+        </div>
+
+        <div class="right">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                style="color: aqua; font-size: 1.4rem"
+                href="contact.html"
+                class="nav-link"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+     <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
+<br>
+    <label for="age">Age:</label>
+    <input type="number" min="1" id="age" name="age" required placeholder="Enter your age">
+<br>
+    <label for="gender">Gender:</label>
+    <label class="labels"><input type="radio" name="gender" value="Male"> Male</label>
+    <label class="labels"><input type="radio" name="gender" value="Female"> Female</label>
+<br>
+    <label  for="interests">Interests:</label>
+    <label class="labels"><input type="checkbox" name="interests" value="Coding"> Coding</label>
+    <label class="labels"><input type="checkbox" name="interests" value="Design"> Design</label>
+    <label class="labels"><input type="checkbox" name="interests" value="Music"> Music</label>
+    <label class="labels"><input type="checkbox" name="interests" value="Reading"> Reading</label>
+<br>
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="" disabled selected hidden>Chose your country</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="india">India</option>
+      <option value="srilanka">SriLanka</option>
+    </select>
+<br>
+<label for="textarea">Any Query:</label>
+    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your message here" style="resize: none;"></textarea>
+
+    <label for="date">Date of submission:</label>
+    <input type="date" id="date" name="date" required>
+
+    <input type="submit" value="Submit">
+     </form>
+
+    </div>
+
+</body>
+</html>
+  </body>
+</html>
