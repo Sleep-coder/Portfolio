@@ -105,7 +105,7 @@ ul li a:hover {
 }
 
 /* contact */
-.main {
+.main-contact {
   display: flex;
   margin: 44px 191px;
   justify-content: center;
@@ -114,7 +114,8 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: forestgreen;
+  background: url("../img/contact.jpg");
+  /* background-color: forestgreen; */
   border-image-width: 100%;
   padding: 20px;
   border-radius: 8px;
